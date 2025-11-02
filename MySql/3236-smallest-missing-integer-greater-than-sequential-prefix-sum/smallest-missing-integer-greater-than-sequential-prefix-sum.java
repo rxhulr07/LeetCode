@@ -8,12 +8,13 @@ class Solution {
                 sum+= nums[i];
         }
 
-        Arrays.sort(nums);
+        // Arrays.sort(nums);
        
         int i =0;
        while(i<nums.length){
         if(sum == nums[i]){
             sum++;
+            i=0;
 
         }
         i++;
